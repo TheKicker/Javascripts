@@ -1,0 +1,47 @@
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+#intro{
+    text-align: center;
+}
+
+.child{
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 5rem 0;
+}
+
+.child-name{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.code{
+    background:rgb(36, 36, 36);
+    padding: 1rem;
+    color: white;
+}
+.code-heading{
+    color: rgb(193, 193, 193);
+}
+
+/* CUSTOM CSS BELOW  */
+
+.light-mode {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.dark-mode {
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
