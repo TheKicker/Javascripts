@@ -29,10 +29,21 @@
     background:rgb(36, 36, 36);
     padding: 1rem;
     color: white;
+    text-align: center;
 }
 .code-heading{
     color: rgb(193, 193, 193);
 }
+
+@media only screen and (max-width: 1000px) {
+    .container{
+        width: 100%;
+    }
+    .child{
+        padding: 1rem;
+        margin: 3rem 0;
+    }
+  }
 
 /* CUSTOM CSS BELOW  */
 
